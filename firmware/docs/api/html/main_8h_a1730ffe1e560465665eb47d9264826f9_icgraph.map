@@ -1,0 +1,12 @@
+<map id="Error_Handler" name="Error_Handler">
+<area shape="rect" id="Node000001" title="This function is executed in case of error occurrence." alt="" coords="452,31,554,57"/>
+<area shape="rect" id="Node000002" href="$app_8c.html#aa2b95ab7a7bf6068edc6d61ccb2786a2" title=" " alt="" coords="296,5,404,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,33,405,30,405,25,440,33"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="103,56,248,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="440,49,248,66,248,61,434,49"/>
+<area shape="rect" id="Node000003" href="$app_8c.html#af0c94d79193624994df85c52e2e30ca4" title=" " alt="" coords="138,5,213,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="278,19,214,21,213,16,284,18"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,30,56,42,54,37,124,25"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="85,55,55,51,55,45,90,53"/>
+</map>

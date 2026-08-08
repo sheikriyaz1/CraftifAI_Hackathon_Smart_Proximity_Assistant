@@ -1,0 +1,15 @@
+<map id="firmware/app/app.c" name="firmware/app/app.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="179,5,312,32"/>
+<area shape="rect" id="Node000002" href="$main_8h.html" title="Header for main.c module." alt="" coords="35,80,96,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,35,111,77,109,72,216,30"/>
+<area shape="rect" id="Node000004" href="$app_8h.html" title=" " alt="" coords="120,80,174,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,31,177,73,174,69,226,34"/>
+<area shape="rect" id="Node000005" href="$app__config_8h.html" title=" " alt="" coords="198,80,293,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="247,30,248,66,243,63,244,35"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="317,80,377,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="264,30,319,70,314,71,263,35"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="401,80,466,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="279,30,390,74,384,75,278,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,126,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,105,68,140,63,138,64,109"/>
+</map>

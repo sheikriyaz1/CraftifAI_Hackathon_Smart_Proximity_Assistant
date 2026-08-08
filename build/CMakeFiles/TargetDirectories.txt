@@ -1,0 +1,3 @@
+C:/Users/sheikriyaz/OneDrive/Desktop/stm32project1/my_firmware/ultrasonic_distance_bringup/build/CMakeFiles/ultrasonic_distance_bringup.elf.dir
+C:/Users/sheikriyaz/OneDrive/Desktop/stm32project1/my_firmware/ultrasonic_distance_bringup/build/CMakeFiles/edit_cache.dir
+C:/Users/sheikriyaz/OneDrive/Desktop/stm32project1/my_firmware/ultrasonic_distance_bringup/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "view": "hld",
+  "revision": "a7a5d5621bc74400f75c6a3b5417e5f8",
+  "graph_version": 1,
+  "generated_at_ms": 1786185729158,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_ultrasonic_distance_bringup-hld",
+    "name": "ultrasonic_distance_bringup topology — HLD",
+    "description": "High-level architecture — MCU controller, firmware modules, and integrations",
+    "nodes": [
+      {
+        "id": "hld_esp32",
+        "node_type": "system_init",
+        "label": "STM32 Main Controller",
+        "description": "Main firmware control node coordinating peripherals, storage, and connectivity.",
+        "ports": [
+          {
+            "id": "hld_esp32::hld::in",
+            "name": "assoc_in",
+            "direction": "input",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "hld_esp32::hld::out",
+            "name": "assoc_out",
+            "direction": "output",
+            "datatype": "association",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "hld_role": "controller"
+        },
+        "visual": {
+          "x": 0.0,
+          "y": -100.0,
+          "layer": 0
+        }
+      }
+    ],
+    "connections": [],
+    "layout": {
+      "orientation": "horizontal",
+      "node_width": 280.0,
+      "layer_gap": 150.0,
+      "node_gap": 64.0
+    },
+    "runtime_metadata": {
+      "telemetry_enabled": false,
+      "overlays": {
+        "diagram_view": "hld",
+        "hld_edge_labels": {},
+        "hld_projection": "architecture"
+      }
+    }
+  },
+  "mermaid": "graph TD\n    hld_esp32[\"STM32 Main Controller\"]",
+  "title": "High-Level Design"
+}

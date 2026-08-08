@@ -1,0 +1,9 @@
+<map id="Core/Src/stm32g0xx_it.c" name="Core/Src/stm32g0xx_it.c">
+<area shape="rect" id="Node000001" title="Main Interrupt Service Routines. This file provides template for all exceptions handler and periphera..." alt="" coords="37,5,203,32"/>
+<area shape="rect" id="Node000002" href="$main_8h.html" title="Header for main.c module." alt="" coords="35,80,96,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,35,86,69,82,66,112,30"/>
+<area shape="rect" id="Node000004" href="$stm32g0xx__it_8h.html" title="This file contains the headers of the interrupt handlers." alt="" coords="120,80,230,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,30,159,67,154,68,129,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,126,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="67,105,68,140,63,138,64,109"/>
+</map>

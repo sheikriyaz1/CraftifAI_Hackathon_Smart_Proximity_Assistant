@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "view": "sequence",
+  "revision": "a7a5d5621bc74400f75c6a3b5417e5f8",
+  "graph_version": 1,
+  "generated_at_ms": 1786185729161,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_ultrasonic_distance_bringup-sequence",
+    "name": "ultrasonic_distance_bringup topology — Sequence",
+    "description": "Execution and initialization order",
+    "nodes": [
+      {
+        "id": "boot",
+        "node_type": "system_init",
+        "label": "1. Boot / app_main",
+        "description": "Bootstraps firmware startup and initializes core subsystems.",
+        "ports": [
+          {
+            "id": "boot::in",
+            "name": "in",
+            "direction": "input",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          },
+          {
+            "id": "boot::out",
+            "name": "out",
+            "direction": "output",
+            "datatype": "any",
+            "required": false,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "target": "stm32"
+        },
+        "execution": {},
+        "visual": {
+          "x": 0.0,
+          "y": 80.0,
+          "layer": 0
+        }
+      }
+    ],
+    "connections": [],
+    "layout": {
+      "orientation": "horizontal",
+      "node_width": 0.0,
+      "layer_gap": 0.0,
+      "node_gap": 0.0
+    }
+  },
+  "title": "Sequence Diagram",
+  "generation_error": "Sequence Mermaid could not be generated from PIR graph; run regeneration."
+}

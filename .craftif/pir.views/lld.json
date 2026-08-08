@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "view": "lld",
+  "revision": "a7a5d5621bc74400f75c6a3b5417e5f8",
+  "graph_version": 1,
+  "generated_at_ms": 1786185729160,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_ultrasonic_distance_bringup-lld",
+    "name": "ultrasonic_distance_bringup topology — LLD",
+    "description": "Low-level design — FreeRTOS and peripheral/service workflow",
+    "nodes": [],
+    "connections": [],
+    "layout": {
+      "orientation": "vertical",
+      "node_width": 280.0,
+      "layer_gap": 120.0,
+      "node_gap": 48.0
+    },
+    "runtime_metadata": {
+      "telemetry_enabled": false,
+      "overlays": {
+        "diagram_view": "ldd",
+        "ldd_edge_labels": {}
+      }
+    }
+  },
+  "mermaid": "flowchart TD\n  no_workflow[\"No LLD workflow detected\"]",
+  "title": "Low-Level Design (Firmware Workflow)"
+}

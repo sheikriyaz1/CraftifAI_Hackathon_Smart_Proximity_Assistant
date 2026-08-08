@@ -1,0 +1,21 @@
+<map id="Core/Inc/stm32g0xx_hal_conf.h" name="Core/Inc/stm32g0xx_hal_conf.h">
+<area shape="rect" id="Node000001" title="HAL configuration file." alt="" coords="718,5,857,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,151,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="715,35,478,62,167,98,166,93,477,57,720,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="174,96,326,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="718,41,341,97,341,92,716,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="350,96,502,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="720,43,498,95,497,90,715,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="526,96,689,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="744,48,650,92,649,87,738,49"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="713,96,862,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="789,47,789,82,785,78,785,51"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="886,96,1041,123"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="833,46,924,89,919,89,832,51"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1065,96,1214,123"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="858,41,1072,92,1067,92,857,47"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1237,96,1383,123"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="858,36,1225,94,1219,95,857,41"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="1407,96,1557,123"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="858,33,1394,95,1389,96,857,38"/>
+</map>

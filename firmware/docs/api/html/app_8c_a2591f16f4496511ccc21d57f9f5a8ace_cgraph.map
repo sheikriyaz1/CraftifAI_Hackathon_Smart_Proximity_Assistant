@@ -1,0 +1,11 @@
+<map id="measure_distance_cm" name="measure_distance_cm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,158,83"/>
+<area shape="rect" id="Node000002" href="$app_8c.html#adde4f7c25be3aa24254d80d85f1e91af" title=" " alt="" coords="220,5,294,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,53,207,32,203,35,131,58"/>
+<area shape="rect" id="Node000003" href="$app_8c.html#ac95bac83b9337bf5f4410c38a659d4da" title=" " alt="" coords="356,56,458,83"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="158,67,342,67,339,72,158,72"/>
+<area shape="rect" id="Node000004" href="$app_8c.html#a87e9617567ee3770c757d354b588ba2a" title=" " alt="" coords="206,107,308,133"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="131,81,196,101,191,102,130,86"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="294,28,354,50,348,51,294,34"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="298,103,349,89,354,88,300,109"/>
+</map>

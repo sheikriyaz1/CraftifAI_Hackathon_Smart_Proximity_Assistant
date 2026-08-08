@@ -1,0 +1,273 @@
+{
+  "schema_version": "2.0.0",
+  "id": "pir_ultrasonic_distance_bringup",
+  "revision": "a7a5d5621bc74400f75c6a3b5417e5f8",
+  "provenance": {
+    "project_path": "C:\\Users\\sheikriyaz\\OneDrive\\Desktop\\stm32project1\\my_firmware\\ultrasonic_distance_bringup",
+    "chat_id": "5f193f71-a505-4b49-8a8c-2b6d1269aef2",
+    "revision": "a7a5d5621bc74400f75c6a3b5417e5f8",
+    "generated_at_ms": 1786185729148,
+    "analyzer_version": "pir_maker-static-0.2.0",
+    "analyzed_files": [
+      "CMakeLists.txt",
+      "Core/Inc/main.h",
+      "Core/Inc/stm32g0xx_hal_conf.h",
+      "Core/Inc/stm32g0xx_it.h",
+      "Core/Src/main.c",
+      "Core/Src/stm32g0xx_hal_msp.c",
+      "Core/Src/stm32g0xx_it.c",
+      "Core/Src/system_stm32g0xx.c",
+      "firmware/app/app.c",
+      "firmware/app/app.h",
+      "firmware/configs/app_config.h"
+    ],
+    "file_hashes": {
+      "Core/Src/system_stm32g0xx.c": "9fb33b59d1a78aafd839765da7fa9a37",
+      "Core/Inc/stm32g0xx_hal_conf.h": "7e0f9d80e002d761af02ca0d765e4f53",
+      "Core/Src/stm32g0xx_it.c": "bf0eddf64cbd8a6290a9b124b6515aa1",
+      "firmware/app/app.h": "0e9e4f9692ef91e198682caf9bc83da1",
+      "CMakeLists.txt": "8b6b5ea27906182f504ec1cdb709113a",
+      "Core/Inc/main.h": "0c715c62a87fed5a8b4f5f4dd05241b6",
+      "Core/Src/main.c": "6d23fed53d5118f02244812ae3123587",
+      "Core/Inc/stm32g0xx_it.h": "67fc7f21b7832803cb848f4594b45d10",
+      "firmware/app/app.c": "b2ac55b585e4b89c8a8df3bbcf2bf90c",
+      "Core/Src/stm32g0xx_hal_msp.c": "5a16449f4a099b7ca13342d30fb7759d",
+      "firmware/configs/app_config.h": "44fbc7f71658392903ab5a17c6eedcbb"
+    }
+  },
+  "approval": {
+    "status": "pending"
+  },
+  "nodes": [
+    {
+      "id": "boot",
+      "node_type": "system_init",
+      "label": "Boot / app_main",
+      "properties": {
+        "target": "stm32"
+      },
+      "source_refs": [
+        {
+          "file": "Core/Src/main.c",
+          "confidence": 1.0,
+          "inferred_by": "static"
+        }
+      ],
+      "sync": {
+        "state": "synced",
+        "last_synced_revision": "a7a5d5621bc74400f75c6a3b5417e5f8"
+      },
+      "ownership": {
+        "primary_files": [
+          "Core/Src/main.c"
+        ]
+      },
+      "editable_fields": [
+        "target"
+      ],
+      "layer": "system",
+      "ai_summary": "Bootstraps firmware startup and initializes core subsystems.",
+      "confidence": 1.0,
+      "authority": "agent",
+      "semantic_tags": [],
+      "dependencies": []
+    }
+  ],
+  "edges": [],
+  "layers": {
+    "physical": [],
+    "runtime": [],
+    "network": [],
+    "system": [
+      "boot"
+    ]
+  },
+  "partitions": [],
+  "components": [],
+  "summary": {
+    "headline": "1 nodes, 0 connections — valid",
+    "node_count": 1,
+    "edge_count": 0,
+    "warnings": []
+  },
+  "diagrams": {
+    "hld": {
+      "title": "High-Level Design",
+      "mermaid": "graph TD\n    hld_esp32[\"STM32 Main Controller\"]"
+    },
+    "lld": {
+      "title": "Low-Level Design (Firmware Workflow)",
+      "mermaid": "flowchart TD\n  no_workflow[\"No LLD workflow detected\"]"
+    },
+    "sequence": {
+      "title": "Sequence Diagram",
+      "generated_from": [
+        "Core/Src/main.c"
+      ],
+      "generation_error": "Sequence Mermaid could not be generated from PIR graph; run regeneration."
+    },
+    "hld_graph": {
+      "schema_version": 1,
+      "id": "pir_ultrasonic_distance_bringup-hld",
+      "name": "ultrasonic_distance_bringup topology — HLD",
+      "description": "High-level architecture — MCU controller, firmware modules, and integrations",
+      "nodes": [
+        {
+          "id": "hld_esp32",
+          "node_type": "system_init",
+          "label": "STM32 Main Controller",
+          "description": "Main firmware control node coordinating peripherals, storage, and connectivity.",
+          "ports": [
+            {
+              "id": "hld_esp32::hld::in",
+              "name": "assoc_in",
+              "direction": "input",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "hld_esp32::hld::out",
+              "name": "assoc_out",
+              "direction": "output",
+              "datatype": "association",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "hld_role": "controller"
+          },
+          "visual": {
+            "x": 0.0,
+            "y": -100.0,
+            "layer": 0
+          }
+        }
+      ],
+      "connections": [],
+      "layout": {
+        "orientation": "horizontal",
+        "node_width": 280.0,
+        "layer_gap": 150.0,
+        "node_gap": 64.0
+      },
+      "runtime_metadata": {
+        "telemetry_enabled": false,
+        "overlays": {
+          "diagram_view": "hld",
+          "hld_edge_labels": {},
+          "hld_projection": "architecture"
+        }
+      }
+    },
+    "lld_graph": {
+      "schema_version": 1,
+      "id": "pir_ultrasonic_distance_bringup-lld",
+      "name": "ultrasonic_distance_bringup topology — LLD",
+      "description": "Low-level design — FreeRTOS and peripheral/service workflow",
+      "nodes": [],
+      "connections": [],
+      "layout": {
+        "orientation": "vertical",
+        "node_width": 280.0,
+        "layer_gap": 120.0,
+        "node_gap": 48.0
+      },
+      "runtime_metadata": {
+        "telemetry_enabled": false,
+        "overlays": {
+          "diagram_view": "ldd",
+          "ldd_edge_labels": {}
+        }
+      }
+    },
+    "sequence_graph": {
+      "schema_version": 1,
+      "id": "pir_ultrasonic_distance_bringup-sequence",
+      "name": "ultrasonic_distance_bringup topology — Sequence",
+      "description": "Execution and initialization order",
+      "nodes": [
+        {
+          "id": "boot",
+          "node_type": "system_init",
+          "label": "1. Boot / app_main",
+          "description": "Bootstraps firmware startup and initializes core subsystems.",
+          "ports": [
+            {
+              "id": "boot::in",
+              "name": "in",
+              "direction": "input",
+              "datatype": "any",
+              "required": false,
+              "multiplicity": "one"
+            },
+            {
+              "id": "boot::out",
+              "name": "out",
+              "direction": "output",
+              "datatype": "any",
+              "required": false,
+              "multiplicity": "one"
+            }
+          ],
+          "properties": {
+            "target": "stm32"
+          },
+          "execution": {},
+          "visual": {
+            "x": 0.0,
+            "y": 80.0,
+            "layer": 0
+          }
+        }
+      ],
+      "connections": [],
+      "layout": {
+        "orientation": "horizontal",
+        "node_width": 0.0,
+        "layer_gap": 0.0,
+        "node_gap": 0.0
+      }
+    }
+  },
+  "change_log": [],
+  "unresolved": [
+    {
+      "kind": "sparse_extraction",
+      "message": "app_main found but no GPIO/tasks extracted; AI refine may help",
+      "file": "Core/Src/main.c"
+    }
+  ],
+  "read_only": true,
+  "graph_version": 1,
+  "generation": {
+    "mode": "static",
+    "triggered_by": "mount",
+    "analyzed_at_ms": 1786185729149,
+    "input_files": [
+      "CMakeLists.txt",
+      "Core/Inc/main.h",
+      "Core/Inc/stm32g0xx_hal_conf.h",
+      "Core/Inc/stm32g0xx_it.h",
+      "Core/Src/main.c",
+      "Core/Src/stm32g0xx_hal_msp.c",
+      "Core/Src/stm32g0xx_it.c",
+      "Core/Src/system_stm32g0xx.c",
+      "firmware/app/app.c",
+      "firmware/app/app.h",
+      "firmware/configs/app_config.h"
+    ]
+  },
+  "sync_metadata": {
+    "project_file": "",
+    "content_hash": "",
+    "pending_patches": []
+  },
+  "validation_state": {
+    "valid": true,
+    "error_count": 0,
+    "warning_count": 0,
+    "validated_at_ms": 1786185729150
+  }
+}

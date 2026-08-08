@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "view": "wiring",
+  "revision": "a7a5d5621bc74400f75c6a3b5417e5f8",
+  "graph_version": 1,
+  "generated_at_ms": 1786185729157,
+  "graph": {
+    "schema_version": 1,
+    "id": "pir_ultrasonic_distance_bringup",
+    "name": "ultrasonic_distance_bringup topology",
+    "description": "1 nodes, 0 connections — valid",
+    "nodes": [
+      {
+        "id": "boot",
+        "node_type": "system_init",
+        "label": "Boot / app_main",
+        "description": "Bootstraps firmware startup and initializes core subsystems.",
+        "ports": [
+          {
+            "id": "boot_boot_out_0",
+            "name": "boot_out",
+            "direction": "output",
+            "datatype": "execution",
+            "required": true,
+            "multiplicity": "one"
+          }
+        ],
+        "properties": {
+          "target": "stm32"
+        },
+        "execution": {},
+        "visual": {
+          "x": 0.0,
+          "y": -100.0,
+          "layer": 0
+        }
+      }
+    ],
+    "connections": [],
+    "layout": {
+      "orientation": "",
+      "node_width": 0.0,
+      "layer_gap": 0.0,
+      "node_gap": 0.0
+    }
+  },
+  "title": "Wiring Topology"
+}
