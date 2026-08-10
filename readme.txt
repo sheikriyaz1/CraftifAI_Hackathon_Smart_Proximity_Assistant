@@ -5,9 +5,7 @@ An STM32-based smart proximity/parking assistant built with **FirmGen** (Craftif
 ---
 
 ## Demo video
-
-> **[Insert 1–2 min demo video link here]**
-> Briefly show FirmGen's home screen, then focus on the firmware running live on the board — hand approaching the sensor, LED reacting, UART console updating.
+I have given in vedio section plz watch it.
 
 ---
 
@@ -46,8 +44,8 @@ Readings and status update every **500 ms**, printed over UART at **115200 baud*
 | USB cable (ST-Link) | 1 | Power + flashing + UART monitor |
 
 ## Wiring
+I have given in image section.
 
-> **[Insert wiring photo / diagram screenshot here]**
 
 | HC-SR04 pin | Nucleo-G071RB pin | Notes |
 |---|---|---|
